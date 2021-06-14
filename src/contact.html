@@ -13,8 +13,10 @@
     <nav class="navbar">
         <div class="container navbar__container">
             <h1 class="logo-studion">
-                Studi<span class="copy--primary">on</span>
-                <span class="logo-studion__subtitle">Eventos</span>
+                <a href="index.html">
+                    Studi<span class="copy--primary">on</span>
+                    <span class="logo-studion__subtitle">Eventos</span>
+                </a>
             </h1>
             <ul class="navbar__links">
                 <li>
@@ -38,7 +40,7 @@
                 </a>
                 </li>
                 <li>
-                    <a href="contact.html">
+                    <a class="active" href="contact.html">
                     Contatos
                 </a>
                 </li>
@@ -47,64 +49,56 @@
     </nav>
 
     <header>
-        <div id="slider">
-            <div class="slide">
-                <img class="slide__background-image" src="./images/banner.jpg" alt="Studion Banner">
-                <div class="slide__copy">
-                    <h6><span class="copy--primary">Próximo evento</span> - Dia 25 de setembro às 19h</h6>
-                    <h2><span class="copy--primary">Creative</span> Minds</h2>
-                    <button class="btn btn--slide">Saiba Mais</button>
+        <div class="hero">
+            <img src="./images/contact.jpg" alt="" class="hero__background" />
+            <div class="container hero__container">
+                <div class="hero__copy">
+                    <h2>.contato</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, tenetur. Tempora beatae aspernatur obcaecati dignissimos, facere excepturi. Possimus doloribus obcaecati temporibus voluptatum optio, harum dolore velit excepturi
+                        rerum et reprehenderit!</p>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section id="counter">
-            <ul class="container counter__container">
-                <li>
-                    <h3>
-                        + de 500
-                        <small>eventos realizados</small>
-                    </h3>
-                </li>
-                <li>
-                    <h3>
-                        + 1.000.000
-                        <small>de ingressos vendidos</small>
-                    </h3>
-                </li>
-                <li>
-                    <h3>
-                        + de 300
-                        <small>empresas atendidas</small>
-                    </h3>
-                </li>
-            </ul>
-        </section>
-
-        <section class="container institutional">
-            <img class="institutional__image" src="./images/institutional.jpg" alt="Studion institutional" />
-            <div class="institutional__copy">
-                <h6>Fazemos o seu eventos acontecer</h6>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis delectus aspernatur dolorem eaque tenetur, nesciunt dolorum culpa? Totam, ad. Eius natus nobis iure officia harum! Repudiandae ullam corporis laborum inventore.
-                </p>
-                <button class="btn btn--institutional">Saiba Mais</button>
-            </div>
-        </section>
-
-        <section class="quote">
-            <div class="container quote__container">
-                <div class="quote__copy">
-                    <h6>
-                        Você informa a temática e nós planejamos um evento com tecnologia e
-                    </h6>
-                    <h2><span class="copy--primary">Muito+ </span>Diversão</h2>
-                    <button class="btn btn--quote">Fazer cotação</button>
+        <section class="contact">
+            <section class="contact__info">
+                <div class="contact__info__container">
+                    <h3>Liga pra gente</h3>
+                    <span>
+                        <i class="fas fa-phone fa-flip-horizontal"></i>
+                        +55 48 3223 - 5769
+                    </span>
+                    <span>
+                        <i class="fab fa-whatsapp"></i>
+                        "55 48 99943 - 7777"
+                    </span>
+                    <h3>Venha conhecer a nossa casa</h3>
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Rua Miguel Daux, 129 - Coqueiros Florianópolis / SC
+                    </span>
                 </div>
-            </div>
+            </section>
+
+            <section class="contact__form">
+                <form class="contact__form__container" action="">
+                    <h3>Deixe sua mensagem</h3>
+                    <label for="name">Seu nome</label>
+                    <input id="name" type="text" />
+                    <label for="email">Seu email</label>
+                    <input id="email" type="email" />
+                    <label for="message">Sua mensagem</label>
+                    <input id="message" type="text" />
+                    <button class="btn btn--contact" type="submit">Enviar</button>
+                </form>
+            </section>
+        </section>
+
+        <section class="maps">
+            <iframe width="100%" src="https://maps.google.com/maps?q=Rua%20Miguel%20Daux,%20129%20-%20Coqueiros%20Florian%C3%B3polis%20/%20SC&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
         </section>
     </main>
 
