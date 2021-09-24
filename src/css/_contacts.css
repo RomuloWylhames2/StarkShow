@@ -26,7 +26,7 @@
 .contact__info span {
     display: grid;
     grid-template-columns: 1.5rem auto;
-    gap: .625rem;
+    gap: 0.625rem;
     align-items: center;
     font-family: "Roboto";
     font-weight: 700;
